@@ -1,13 +1,13 @@
 \documentclass[uplatex]{jsarticle}
 \usepackage[dvipdfmx]{graphicx}
-\usepackage{listings, jlisting}
 \usepackage{float, enumerate}
 \usepackage{url}
 \usepackage{here}
 \usepackage{cite}
 \input{layout}
-\renewcommand{\lstlistingname}{ソースコード}
+\usepackage{listings,jlisting}
 \usepackage{listings,jvlisting}
+\renewcommand{\lstlistingname}{ソースコード}
 \lstset{
   basicstyle={\ttfamily},
   identifierstyle={\small},
@@ -28,9 +28,9 @@
 }
 
 \begin{document}
-\title{}
+\title{梁の数値構造解析}
 \author{21C1034 苅込凌太郎}
-\date{}%\todayにすると今日になる
+\date{2024/11/18}%\todayにすると今日になる
 \maketitle
 \input{01_introduction.tex}
 \input{02_purpose.tex}
