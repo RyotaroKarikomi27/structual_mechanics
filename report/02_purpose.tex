@@ -1,13 +1,31 @@
-\section{}
-  \subsection{}
-    \begin{lstlisting}[caption=]
-    \end{lstlisting}
+\section{方針}
+  今回の課題は課題1を評価した後に課題2の評価に移る．
+  つまり優勝を目指して課題2の評価を優先してしまうと，
+  課題1の上位30名に選ばれなくなってしまう．
+  そこで私は課題1を最優先として今回の課題に取り組む．\\\indent
+  まず1.1の解析条件1より梁の固定される方の条件は以下のように表される．
+  \begin{align}
+    y^2+z^2&=10000[mm^2] \notag \\
+    \iff \sqrt{y^2+z^2}&=100[mm] \label{eq:cond}
+  \end{align}
 
-  \subsection{}
-    \subsubsection{}
-      \begin{lstlisting}[caption=]
-      \end{lstlisting}
+  \eqref{eq:cond}より対角線が$100[mm]$未満の長方形の面積内に，
+  固定される方が接地されなくてはならない．ここで対角線の長さを$d[mm]$とする．
+  \begin{equation}
+    d = \sqrt{y^2 + z^2} = 100[mm] \label{eq:diag}
+  \end{equation}
 
-    \subsubsection{}
-      \begin{lstlisting}[caption=]
-      \end{lstlisting}
+  また課題1は梁の先端に集中荷重$Fz=-100[N]$の力をかける．
+  このときの梁の中立軸は$y$軸と平行である．
+  断面二次モーメントを$I$，梁の$y$軸方向の長さを$b$，
+  $z$軸方向の長さを$h$とすると断面二次モーメントは以下のように表される．
+  \begin{align}
+    I=bh^3/12 \label{eq:MoI}
+  \end{align}
+
+  \eqref{eq:MoI}より$b$を大きくするより，
+  $h$を大きくしたほうが断面二次モーメントが大きくなることがわかる．
+  断面二次モーメントが大きいほど梁は曲がりにくい．
+  つまり中立軸の外側に面積があればあるほど，梁は曲がりにくくなる．\\\indent
+  以上より課題1を突破するためには，梁の設計は$z$軸方向に長く，
+  梁の接地面の面積の対角線がなるべく$z$軸方向に長くなるようにすれば良い．
