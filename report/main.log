@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p3.9.1-u1.27-210218-2.6 (utf8.uptex) (TeX Live 2022/dev/Debian) (preloaded format=uplatex 2024.6.30)  16 NOV 2024 01:15
+This is e-upTeX, Version 3.141592653-p3.9.1-u1.27-210218-2.6 (utf8.uptex) (TeX Live 2022/dev/Debian) (preloaded format=uplatex 2024.6.30)  16 NOV 2024 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -213,7 +213,14 @@ File: l3backend-dvips.def 2022-01-12 L3 backend support: dvips
 \g__pdf_backend_link_int=\count288
 \g__pdf_backend_link_sf_int=\count289
 )
-(./main.aux)
+(./main.aux
+
+LaTeX Warning: Label `img:4-7_voms' multiply defined.
+
+
+LaTeX Warning: Label `img:4-7_disp' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -276,27 +283,111 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 File: images/model_1/safe.png Graphic file (type bmp)
 <images/model_1/safe.png>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 51.
+(Font)              scaled to size 8.32214pt on input line 48.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 51.
+(Font)              scaled to size 8.32214pt on input line 48.
 File: images/model_1/voms.png Graphic file (type bmp)
 <images/model_1/voms.png>
 File: images/model_1/disp.png Graphic file (type bmp)
 <images/model_1/disp.png>
 
-Overfull \hbox (13.83234pt too wide) in paragraph at lines 47--67
+Overfull \hbox (13.83234pt too wide) in paragraph at lines 44--64
 [][][][] 
  []
 
-) (./method/2.tex)) (./04_analysis.tex) (./05_result.tex [2])
-(./06_consideration.tex) (./07_reference.tex) [3] (./main.aux) ) 
-Here is how much of TeX's memory you used:
- 4473 strings out of 478733
- 64233 string characters out of 5860893
- 368524 words of memory out of 5000000
- 22831 multiletter control sequences out of 15000+600000
- 481574 words of font info for 91 fonts, out of 8000000 for 9000
- 934 hyphenation exceptions out of 8191
- 55i,11n,62p,214b,1057s stack positions out of 5000i,500n,10000p,200000b,80000s
+) (./method/2.tex
+File: images/2_voms.png Graphic file (type bmp)
+<images/2_voms.png>
+File: images/2_disp.png Graphic file (type bmp)
+<images/2_disp.png>
 
-Output written on main.dvi (3 pages, 8688 bytes).
+Overfull \hbox (15.33334pt too wide) in paragraph at lines 3--17
+[][][][] 
+ []
+
+[2]) (./method/3.tex
+File: images/3_voms.png Graphic file (type bmp)
+<images/3_voms.png>
+File: images/3_disp.png Graphic file (type bmp)
+<images/3_disp.png>
+
+Overfull \hbox (15.33334pt too wide) in paragraph at lines 3--17
+[][][][] 
+ []
+
+) (./method/4.tex
+File: images/4_voms.png Graphic file (type bmp)
+<images/4_voms.png>
+File: images/4_disp.png Graphic file (type bmp)
+<images/4_disp.png>
+
+Overfull \hbox (15.33334pt too wide) in paragraph at lines 3--17
+[][][][] 
+ []
+
+[3]
+File: images/4-3_voms.png Graphic file (type bmp)
+<images/4-3_voms.png>
+File: images/4-6_voms.png Graphic file (type bmp)
+<images/4-6_voms.png>
+File: images/4-7_voms.png Graphic file (type bmp)
+<images/4-7_voms.png>
+File: images/4-8_voms.png Graphic file (type bmp)
+<images/4-8_voms.png>
+
+Overfull \hbox (22.0pt too wide) in paragraph at lines 47--73
+[][][][] 
+ []
+
+File: images/4-3_disp.png Graphic file (type bmp)
+<images/4-3_disp.png>
+File: images/4-6_disp.png Graphic file (type bmp)
+<images/4-6_disp.png>
+File: images/4-7_disp.png Graphic file (type bmp)
+<images/4-7_disp.png>
+File: images/4-8_disp.png Graphic file (type bmp)
+<images/4-8_disp.png>
+
+Overfull \hbox (22.0pt too wide) in paragraph at lines 76--102
+[][][][] 
+ []
+
+) (./method/5.tex
+File: images/5_voms.png Graphic file (type bmp)
+<images/5_voms.png>
+File: images/5_disp.png Graphic file (type bmp)
+<images/5_disp.png>
+
+Overfull \hbox (15.33334pt too wide) in paragraph at lines 3--17
+[][][][] 
+ []
+
+[4]
+File: images/5_safe.png Graphic file (type bmp)
+<images/5_safe.png>
+File: images/5-1_safe.png Graphic file (type bmp)
+<images/5-1_safe.png>
+File: images/5-1_voms.png Graphic file (type bmp)
+<images/5-1_voms.png>
+File: images/5-1_disp.png Graphic file (type bmp)
+<images/5-1_disp.png>
+
+Overfull \hbox (13.83234pt too wide) in paragraph at lines 37--57
+[][][][] 
+ []
+
+)) (./04_analysis.tex [5]) [6] (./main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4342 strings out of 478733
+ 64741 string characters out of 5860893
+ 368716 words of memory out of 5000000
+ 22675 multiletter control sequences out of 15000+600000
+ 482987 words of font info for 96 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 55i,13n,62p,214b,516s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.dvi (6 pages, 18496 bytes).
